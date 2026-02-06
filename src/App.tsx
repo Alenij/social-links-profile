@@ -1,3 +1,4 @@
+import avatar from "../assets/images/avatar-jessica.jpeg";
 function App() {
   return (
     <>
@@ -5,7 +6,7 @@ function App() {
         <div className="flex-1 flex items-center justify-center">
           <div className="bg-[#1f1f1f] flex flex-col items-center py-7 w-full max-w-70 justify-between rounded-lg">
             <img
-              src="../assets/images\avatar-jessica.jpeg"
+              src={avatar}
               alt="avatar-jessica"
               className="w-16 h-16 rounded-full"
             />
